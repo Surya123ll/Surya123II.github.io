@@ -1,0 +1,10 @@
+<script>
+	var model=document.grtElementBy("Login");
+	window.onclick=function(event)
+	{
+		if(event.target==model)
+		{
+			modal.style.display="none";
+		}
+	}
+</script>
